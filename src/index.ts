@@ -1,8 +1,7 @@
 let dato = document.getElementById("dato");
-let button = document.getElementById("btnentregar")
+let btnentregar = document.getElementById("btnentregar");
 
-btnentregar.addEventListener("click", () >= {
-
+btnentregar.addEventListener("click", () => {
   switch (Number(dato.value)) {
     case 1:
       console.log("Entregar medalla de Oro");
@@ -13,7 +12,7 @@ btnentregar.addEventListener("click", () >= {
     case 3:
       console.log("Entregar medalla de Bronce");
       break;
-    default :
+    default:
       console.log("Entregar mención de participación");
   }
-} );
+});
